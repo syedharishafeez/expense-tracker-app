@@ -1,5 +1,4 @@
-import React, { useState, useReducer } from "react";
-import logo from "./logo.svg";
+import React, { useReducer } from "react";
 import "./App.css";
 import ContextValues from "./contextValues";
 import History from "./History";
