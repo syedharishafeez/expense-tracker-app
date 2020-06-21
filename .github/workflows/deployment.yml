@@ -27,7 +27,7 @@ jobs:
         node-version: 12
     
     - name: Build App
-      run: npm build
+      run: npm run-script build
     
     - name: Setup surge
       run: npm i -g surge
