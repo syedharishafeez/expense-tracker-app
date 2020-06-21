@@ -34,7 +34,12 @@ function History() {
               );
             } else {
               return (
-                <Card style={{ borderRight: "5px solid red" }}>
+                <Card
+                  style={{
+                    borderRight: "5px solid green",
+                    marginBottom: "10px",
+                  }}
+                >
                   <Card.Body
                     style={{
                       background: "white",
