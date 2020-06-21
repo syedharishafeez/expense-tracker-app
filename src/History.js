@@ -28,7 +28,7 @@ function History() {
                     }}
                   >
                     <div> {callContext[0].textArray[index]}</div>
-                    <div> {item} </div>
+                    <div> +{item} </div>
                   </Card.Body>
                 </Card>
               );
@@ -36,7 +36,7 @@ function History() {
               return (
                 <Card
                   style={{
-                    borderRight: "5px solid green",
+                    borderRight: "5px solid red",
                     marginBottom: "10px",
                   }}
                 >
