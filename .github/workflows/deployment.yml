@@ -26,13 +26,8 @@ jobs:
       with:
         node-version: 12
     
-    - name: GitHub Action for Yarn
-      uses: Borales/actions-yarn@v2.3.0
-      with:
-        cmd: install
-    
     - name: Build App
-      run: yarn build
+      run: CI=false npm run build
     
     - name: Setup surge
       run: npm i -g surge
