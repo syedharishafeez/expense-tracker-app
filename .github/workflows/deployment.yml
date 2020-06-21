@@ -30,4 +30,4 @@ jobs:
       run: npm i -g surge
     
     - name: Run Surge
-      run: surge ./ my-expense-tracker-app.surge.sh --token ${secrets.EXPENSE_TRACKER_APP} 
+      run: surge ./ my-expense-tracker-app.surge.sh --token ${{secrets.EXPENSE_TRACKER_APP}} 
